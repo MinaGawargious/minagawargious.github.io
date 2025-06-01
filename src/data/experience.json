@@ -1,0 +1,72 @@
+{
+  "experiences": [
+    {
+      "title": "Digital Design Engineer",
+      "company": "Silicon Labs",
+      "location": "Austin, TX",
+      "period": "May 2023 - Present",
+      "description": [
+        "Refined Energy Management Unit to improve temperature compensation for voltage references, providing stable reference voltages across temperature ranges",
+        "Expanded GPIO subsystem to add new configurability, and integrated changes into top-level SoC",
+        "Updated internal Python scripts to improve program speed and allow them to run on Jenkins CI/CD pipeline, reducing manual labor and increasing efficiency"
+      ],
+      "technologies": ["SystemVerilog", "Python", "Unified-Power Format (UPF)", "Perforce version control"]
+    },
+    {
+      "title": "Digital Design Engineering Intern",
+      "company": "MediaTek",
+      "location": "Austin, TX",
+      "period": "Jan 2023 - May 2023",
+      "description": [
+        "Drove RTL Lint cleaning process using Synopsys Spyglass Lint",
+        "Utilized QuestaCDC to ensure Clock-Domain-Crossing is properly checked",
+        "Automated lint waiver generation and used Perl, Python, and Bash scripts to speed up RTL design and verification for Dimensity 9400 SoC using TSMC's 3nm process"
+      ],
+      "technologies": ["SystemVerilog", "Python", "Perl", "Shell Scripting"]
+    },
+    {
+      "title": "Digital Design Engineering Intern",
+      "company": "Silicon Labs",
+      "location": "Austin, TX",
+      "period": "Aug 2022 - Dec 2022",
+      "description": [
+        "Assisted in RTL development of Energy Management Unit for low-power wireless SoCs",
+        "Learned Unified-Power Format (UPF) and updated UPF files for Energy Management Unit",
+        "Learned UVM verification environment and updated UVM sequences to test new features of Energy Management Unit"
+      ],
+      "technologies": ["SystemVerilog", "UVM", "Unified-Power Format (UPF)"]
+    },
+    {
+      "title": "Systems and Validation Engineering Intern",
+      "company": "Silicon Labs",
+      "location": "Austin, TX",
+      "period": "May 2022 - Aug 2022",
+      "description": [
+        "Designed PyQt5 GUI in Python and Android app in React Native to significantly speed up radio testing",
+        "Packet-Error-Rate (PER) data was presented to marketing team to aid with commercialization of EFR32FG25 Sub-GHz Wireless SOCs"
+      ],
+      "technologies": ["Python", "React Native", "PyQt5"]
+    },
+    {
+      "title": "Graduate Research Assistant - Mobile and Pervasive Computing Lab",
+      "company": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "period": "Sep 2021 - May 2022",
+      "description": [
+        "Used PyTorch to develop scalable software for Federated Machine Learning on Raspberry Pis to show scalability of ML models on constrained edge devices",
+        "Designed website using React Native to display and control training loss and progress of Raspberry Pis"
+      ],
+      "technologies": ["Python", "React Native", "PyTorch", "Hook 'Em"]
+    },
+    {
+      "title": "Tutor",
+      "company": "Varsity Tutors",
+      "location": "Remote",
+      "period": "May 2020 - Sep 2021",
+      "description": [
+        "Tutored students from middle school to college primarily in C, C++, Python, and Java"
+      ],
+      "technologies": ["Python", "C", "C++", "Java", "JavaScript"]
+    }
+  ]
+} 
