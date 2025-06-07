@@ -12,8 +12,8 @@
         "Microarchitecture",
         "High-Speed Computer Arithmetic",
         "System-on-Chip Design",
-        "Technology for Embedded IOT",
         "Cross-Layer Machine Learning Algorithm/Hardware Co-Design",
+        "Technology for Embedded IOT",
         "Multicore Computing",
         "VLSI I",
         "Parallel Computer Architecture",
@@ -33,10 +33,10 @@
         "Computer Architecture",
         "Operating Systems",
         "Real-Time Operating Systems",
-        "Embedded Systems Design Lab",
         "Digital Logic Design Using Verilog (I & II)",
-        "Software Design (I & II)",
         "Algorithms",
+        "Embedded Systems Design Lab",
+        "Software Design (I & II)",
         "Data Science Lab"
       ]
     }

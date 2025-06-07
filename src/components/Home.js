@@ -52,7 +52,7 @@ const Home = ({ bgColor }) => {
                   maxWidth: '600px'
                 }}
               >
-                Hi, my name is
+                Hi, this is
               </Typography>
               <Typography
                 variant="h1"
