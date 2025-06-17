@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af5efb39.css",
+    "main.js": "/static/js/main.9ba3a084.js",
+    "static/media/profile.JPEG": "/static/media/profile.3cd5d20e64ac4aab0711.JPEG",
+    "static/media/UTLogo.png": "/static/media/UTLogo.0534429d6bbf157e1f5f.png",
+    "static/media/mediatek.png": "/static/media/mediatek.5edc652240ca521eb685.png",
+    "static/media/silicon-labs.png": "/static/media/silicon-labs.e892104ac6dd8648fcd5.png",
+    "static/media/varsityLogo.png": "/static/media/varsityLogo.ba9a0a65855ca14eade5.png",
+    "index.html": "/index.html",
+    "main.af5efb39.css.map": "/static/css/main.af5efb39.css.map",
+    "main.9ba3a084.js.map": "/static/js/main.9ba3a084.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5efb39.css",
+    "static/js/main.9ba3a084.js"
+  ]
+}
