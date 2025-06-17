@@ -1,0 +1,44 @@
+{
+  "education": [
+    {
+      "degree": "Master of Science in Electrical and Computer Engineering",
+      "school": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "period": "Aug 2021 - May 2023",
+      "description": [
+        "Focus: Computer Architecture and Embedded Systems"
+      ],
+      "relevantCoursework": [
+        "Microarchitecture",
+        "High-Speed Computer Arithmetic",
+        "System-on-Chip Design",
+        "Cross-Layer Machine Learning Algorithm/Hardware Co-Design",
+        "Technology for Embedded IOT",
+        "Multicore Computing",
+        "VLSI I",
+        "Parallel Computer Architecture",
+        "Integrated Circuit Nanomanufacturing",
+        "Computer Architecture Prediction Mechanisms",
+        "Semiconductor Optoelectronic Devices"
+      ]
+    },
+    {
+      "degree": "Bachelor of Science in Electrical and Computer Engineering",
+      "school": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "period": "Aug 2017 - May 2021",
+      "description": [
+      ],
+      "relevantCoursework": [
+        "Computer Architecture",
+        "Operating Systems",
+        "Real-Time Operating Systems",
+        "Digital Logic Design Using Verilog (I & II)",
+        "Algorithms",
+        "Embedded Systems Design Lab",
+        "Software Design (I & II)",
+        "Data Science Lab"
+      ]
+    }
+  ]
+} 
