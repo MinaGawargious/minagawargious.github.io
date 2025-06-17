@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+/* CSS Custom Properties for theme colors */
+:root {
+  --color-background: #0a192f;
+  --color-text: #8892b0;
+  --color-scrollbar-track: #0a192f;
+  --color-scrollbar-thumb: #64ffda;
+  --color-cursor-primary: #005577;
+  --color-cursor-accent: #64ffda;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Firefox scrollbar styling - only on desktop */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  /* Custom cursor - only on desktop */
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g transform="rotate(-120 16 16)"><polygon points="8,8 24,16 8,24" fill="%23005577" stroke="%2364ffda" stroke-width="2"/><circle cx="26" cy="16" r="3" fill="white" stroke="%2364ffda" stroke-width="2"/><line x1="4" y1="16" x2="8" y2="16" stroke="%2364ffda" stroke-width="2"/></g></svg>') 0 16, auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Custom scrollbar - WebKit browsers (Chrome, Safari, Edge) - only on desktop */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar-thumb);
+  border-radius: 4px;
+}
+
+/* Firefox scrollbar styling - only on desktop */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
+}
+
+/* Disable custom scrollbar and cursor on mobile devices */
+@media (pointer: coarse) and (hover: none) {
+  html {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+  
+  body {
+    cursor: default;
+  }
+  
+  ::-webkit-scrollbar {
+    width: auto;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: auto;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: auto;
+    border-radius: auto;
+  }
+  
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+}

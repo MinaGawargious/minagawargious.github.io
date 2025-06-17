@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "Microarchitecture",
+      "points": [
+        "Worked in a team of 3 to design a 7-stage pipeline implementing part of Intel's x86 IA-32 ISA in structural Verilog",
+        "Personal role was to design writeback cache, instruction-length decode logic, and part of bus architecture"
+      ],
+      "technologies": ["Verilog", "x86", "Computer Architecture"]
+    },
+    {
+      "title": "Pintos Operating System",
+      "points": [
+        "Worked with a partner to add support for user programs, virtual memory, and an improved file system with support for subdirectories and file growth to the Pintos Operating System",
+        "Learned to manage, update, and debug a large prewritten codebase with over 30,000 lines of code across over 50 files by using GDB and git"
+      ],
+      "technologies": ["C", "GDB", "Operating Systems Concepts", "Git"]
+    },
+    {
+      "title": "Real-Time Operating Systems Labs",
+      "points": [
+        "Worked with a partner to write an operating system for the TM4C123GH6PM microcontroller, with round-robin and priority scheduling, a basic shell, a file system using indexed allocation, and network support using TCP/IP",
+        "Personal role was to write the scheduling algorithms and majority of file system"
+      ],
+      "technologies": ["C", "Real-Time Operating Systems", "Embedded Systems"]
+    },
+    {
+      "title": "Chat Program",
+      "points": [
+        "Created chat program in Java, with ability to send text and images to groups with any number of members",
+        "Learned JavaFX, socket programming, multithreading, semaphores, and the observer design pattern"
+      ],
+      "technologies": ["Java", "JavaFX", "Socket Programming", "Multithreading", "Semaphores"],
+      "github": "https://github.com/MinaGawargious/ChatProgram"
+    }
+  ]
+} 
